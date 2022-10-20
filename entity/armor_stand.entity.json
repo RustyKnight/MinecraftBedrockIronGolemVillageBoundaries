@@ -1,46 +1,36 @@
 {
     "format_version": "1.10.0",
-    "minecraft:client_entity":
-    {
-        "description":
-        {
+    "minecraft:client_entity": {
+        "description": {
             "identifier": "minecraft:armor_stand",
             "min_engine_version": "1.8.0",
-            "materials":
-            {
+            "materials": {
                 "default": "armor_stand",
                 "semi_transparent": "kz_alpha_end",
                 "alpha": "npc",
                 "flat": "entity"
             },
-            "textures":
-            {
+            "textures": {
                 "default": "textures/entity/armor_stand",
                 "golem_spawn": "textures/addon/golem_spawn"
             },
-            "animations":
-            {
+            "animations": {
                 "default_pose": "animation.armor_stand.default_pose"
             },
-            "scripts":
-            {
-                "animate":
-                [
+            "scripts": {
+                "animate": [
                     "controller.pose",
                     "controller.wiggling"
                 ],
-                "pre_animation":
-                [
+                "pre_animation": [
                     "v.golem_show = query.get_equipped_item_name(0) == 'iron_ingot' || query.get_equipped_item_name(0) == 'red_flower';"
                 ]
             },
-            "geometry":
-            {
+            "geometry": {
                 "default": "geometry.armor_stand",
                 "golem_spawn": "geometry.golem_spawn"
             },
-            "render_controllers":
-            [
+            "render_controllers": [
                 "controller.render.armor_stand",
                 {
                     "controller.render.golem_spawn": "v.golem_show"

@@ -12,10 +12,12 @@ The village bounds are where raids will start from. this is really handy for dra
 
 [Bedrock Technical Resource Pack](https://github.com/RavinMaddHatter/Bedrock-Technical-Resource-Pack)
 
-This strips out the crop water feature into a standalone addon and updates it to support 1.19.30
+This strips out the feature into a standalone addon and updates it to support 1.19.30
 
 ## How To Use
 
-To use this feature, place an armor stand on the outlying "most extreme" pillows in the village (of if your village is not organized, then all pillows). apply the key item to each of the armor stands. The pink cube represents a potential area the the golem can spawn in. The yellow cube represents the village boundary if the armor stand were standing on the designated village center.
+To use this feature, place an armor stand on the outlying "most extreme" pillows in the village (of if your village is not organized, then all pillows). 
+
+Equip the armor stand with a **iron ingot** or **red flower**. The pink cube represents a potential area the the golem can spawn in. The yellow cube represents the village boundary if the armor stand were standing on the designated village center.
 
 * This is subject to random shuffling to any bed in the village.

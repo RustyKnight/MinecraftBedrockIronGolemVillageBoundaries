@@ -1,19 +1,14 @@
 {
-    "materials":
-    {
+    "materials": {
         "version": "1.0.0",
-        "kz_alpha_end:entity_alphablend":
-        {
-            "+defines":
-            [
+        "kz_alpha_end:entity_alphablend": {
+            "+defines": [
                 "COLOR_BASED"
             ],
-            "-defines":
-            [
+            "-defines": [
                 "USE_OVERLAY"
             ],
-            "+states":
-            [
+            "+states": [
                 "Blending",
                 "DisableDepthWrite"
             ],
